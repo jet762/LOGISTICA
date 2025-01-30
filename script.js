@@ -1,12 +1,12 @@
 // Configuração do Firebase
 const firebaseConfig = {
-    apiKey: "SUA_API_KEY",
-    authDomain: "SEU_AUTH_DOMAIN",
-    databaseURL: "SEU_DATABASE_URL",
-    projectId: "SEU_PROJECT_ID",
-    storageBucket: "SEU_STORAGE_BUCKET",
-    messagingSenderId: "SEU_MESSAGING_SENDER_ID",
-    appId: "SEU_APP_ID"
+    apiKey: "AIzaSyBbGC3aX1RPhG80tS0acGCqjwWPIVVG7Z4",
+    authDomain: "logisticaagro-bf3f4.firebaseapp.com",
+    databaseURL: "https://logisticaagro-bf3f4-default-rtdb.europe-west1.firebasedatabase.app/",
+    projectId: "logisticaagro-bf3f4",
+    storageBucket: "logisticaagro-bf3f4.firebasestorage.app",
+    messagingSenderId: "740279361333",
+    appId: "1:740279361333:web:1321499c13331f29edb67c"
 };
 
 firebase.initializeApp(firebaseConfig);
