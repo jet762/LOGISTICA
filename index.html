@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Logístico</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>Mapa Logístico</h1>
+    </header>
+    
+    <main>
+        <div id="map"></div>
+        
+        <div class="form-container">
+            <h2>Adicionar Local</h2>
+            <input type="text" id="nomeLocal" placeholder="Nome do local">
+            <input type="text" id="enderecoLocal" placeholder="Endereço">
+            <button onclick="adicionarLocal()">Adicionar</button>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
